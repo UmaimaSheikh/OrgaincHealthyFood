@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn-res{
+    background-color:black;
+    color: white;
+}
+.navbar{
+    background-color: rgb(255, 182, 194);
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.7s;
+}
+.navbar-brand:hover{
+    color: darkorange;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(110, 7, 7);
+    text-transform: uppercase;
+     font-family: "Lobster", sans-serif;
+}
+.nav-link:hover{
+    color: darkorange;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -30px;
+    border: 2px solid rgb(168, 12, 64);
+     font-family: "Lobster", sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: rgb(168, 12, 64);
+    color: white;
+    font-weight: 700;
+}
+.main{
+    background-image: url(Images/Fruit1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(31, 5, 5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.7s;
+}
+.main h1:hover{
+    color: rgb(124, 103, 9);
+}
+.btn1{
+    height: 45px;
+    width: 210px;
+    border: none;
+    outline: none;
+    background-color: rgb(168, 12, 64) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-left: 60px;
+}.btn1:hover{
+    background-color: red;
+    transition: 0.8s;
+}
+.product img{
+    width: 100px;
+    height: 100px;
+}
+/* .product .imges{
+    text-align: center;
+    font-size: 40px;
+} */
+
+h1{
+    font-weight: 400;
+}
+.about h1{
+    font-family: Elephant;
+}
+.about h1:hover{
+    color: rgb(187, 94, 7);
+}
+.about h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 20px;
+}
+.about h6:hover{
+    color: darkorange;
+    scale: 0.6;
+}
+.about h5{
+    color: rgb(114, 19, 35);
+    font-family: Arial Black;
+}
+.about p{
+    color: rgb(161, 84, 21);
+}
+.card a{
+    color: green;
+    margin-top: 40px;
+}
+ .card:hover{
+    box-shadow: 5px -6px 10px 2px rgba(0,0,0,0.63);
+   -webkit-box-shadow: 5px -6px 10px 2px rgba(0,0,0,0.63);
+   -moz-box-shadow: 5px -6px 10px 2px rgba(0,0,0,0.63);
+}
+.about img{
+    width: 500px;
+    height: 300px;
+}
+h1{
+    font-weight: 400;
+}
+.shop h4{
+    margin-left:70px ;
+}
+.shop p{
+    margin-left: 70px;
+}
+.shop h1{
+    font-family: Elephant;
+}
+.shop h1:hover{
+    color: rgb(77, 45, 8);
+}
+.shop h6{
+    color: darkorange;
+}
+.shop h6:hover{
+    color: red;
+    scale: 0.7;
+}
+.shop img{
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+}
+.news{
+    background-color: black;
+    color: white;
+    background-image: url(Images/fruit2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background-color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news p{
+    margin: 0;
+    color: rgb(238, 191, 37);
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.news span{
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+}
+.news span:hover{
+    color: rgb(124, 11, 39);
+    scale: 0.8;
+    transition: 0.9s;
+}
+.news h6{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.news h5{
+    color: darkorange;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.news h5:hover{
+    scale: 0.9;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+/* Contact Section */
+
+.apple{
+    background:url(Images/Apple\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+h1{
+    font-family: Elephant;
+    color: rgb(73, 10, 24);
+}
+ h6{
+     font-family: "Lobster", sans-serif;
+     font-weight: 700;
+}
+.contact h6{
+    color: darkorange;
+}
+.contact h6:hover{
+  color: red;
+}
+.contact1 .connect{
+    color: rgb(14, 13, 13);
+}
+.contact1 h6{
+    color: darkorange;
+}
+
+.contact h1{
+    font-size: 60px;
+    color: rgb(230, 12, 113);
+}
+.contact h6{
+    color: darkorange;
+    font-size: 30px;
+    transition: 0.8s;
+}
+.contact h6:hover{
+  color: rgb(117, 68, 8);
+}
+/* .contact{
+    background-image: url(Images/fruit\ wallpaper2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+.contact input{
+    height: 45px;
+    width: 70%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background-color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+
+/* ........Contact section end */
+
+
+/* Trend Section */
+
+  .store h1{
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkorange;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+.up{
+    background: pink;
+    padding: 10px;
+    box-sizing: content-box;
+    border-radius: 100%;
+    font-weight: 900;
+    font-size: 24px;
+    position: fixed;
+    bottom: 15px;
+    right: 14px;
+    display: none;
+    z-index: 100;
+    cursor: pointer;
+}
+/* .................... */
+.fruits{
+    background-image: url(Images/fruit\ basket\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.fruits h1{
+    color: rgb(114, 15, 48);
+    transition: 0.5s;
+    font-size: 35px;
+}
+.fruits h1:hover{
+    scale: 0.9;
+    color: rgb(214, 36, 81);
+}
+.fruits h6{
+    font-size: 30px;
+    color:darkorange ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fruits p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+}
+.btn3{
+    height: 45px;
+    width: 200px;
+    background-color: rgb(116, 15, 57);
+    margin-left: -10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: 0.7s;
+}
+.btn3:hover{
+    background-color: rgb(230, 74, 147);
+}
+.store .card-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.store .card-title{
+    color: rgb(128, 8, 58);
+    transition: 0.8s;
+}
+.store .card-title:hover{
+    color: rgb(221, 48, 143);
+    scale: 0.9;
+}
+.store .card:hover{
+  background-color: darkorange;
+}
+/* End Trend Sec....... */
+
+
+
+
+
+
+
+
+
+
+
+
+
